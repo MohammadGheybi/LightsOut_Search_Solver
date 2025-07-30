@@ -44,48 +44,50 @@ Several custom heuristics were designed and tested for the A\* algorithm to anal
 ---
 ## Solving Example
 
-Running test:
- [[1 0 0 0 0]
+### Running Test Input:
+```
+[[1 0 0 0 0]
  [0 0 1 0 0]
  [1 0 1 0 0]
  [0 1 0 0 0]
  [0 0 0 0 0]]
+```
 
-Solving with BFS:
-Solution: [(0, 0), (1, 1), (2, 1)]
-Nodes visited: 10875
+### Solving with BFS:
+- **Solution:** `[(0, 0), (1, 1), (2, 1)]`
+- **Nodes visited:** `10875`
 
-Solving with IDS:
-Solution: [(0, 0), (1, 1), (2, 1)]
-Nodes visited: 145
+### Solving with IDS:
+- **Solution:** `[(0, 0), (1, 1), (2, 1)]`
+- **Nodes visited:** `145`
 
-Solving with A*(heuristic1):
-Solution: [(2, 1), (1, 1), (0, 0)]
-Nodes visited: 75
+### Solving with A* (heuristic1):
+- **Solution:** `[(2, 1), (1, 1), (0, 0)]`
+- **Nodes visited:** `75`
 
-Solving with A*(heuristic2):
-Solution: [(0, 0), (1, 1), (2, 1)]
-Nodes visited: 600
+### Solving with A* (heuristic2):
+- **Solution:** `[(0, 0), (1, 1), (2, 1)]`
+- **Nodes visited:** `600`
 
-Solving with A*(heuristic3):
-Solution: [(1, 1), (2, 1), (0, 0)]
-Nodes visited: 75
+### Solving with A* (heuristic3):
+- **Solution:** `[(1, 1), (2, 1), (0, 0)]`
+- **Nodes visited:** `75`
 
-Solving with weighted A*(weighted_heuristic1, alpha = 2):
-Solution: [(2, 1), (0, 0), (1, 1)]
-Nodes visited: 1150
+### Solving with Weighted A* (weighted_heuristic1, alpha = 2):
+- **Solution:** `[(2, 1), (0, 0), (1, 1)]`
+- **Nodes visited:** `1150`
 
-Solving with weighted A*(weighted_heuristic1, alpha = 5):
-Solution: [(2, 1), (0, 0), (1, 1)]
-Nodes visited: 4475
+### Solving with Weighted A* (weighted_heuristic1, alpha = 5):
+- **Solution:** `[(2, 1), (0, 0), (1, 1)]`
+- **Nodes visited:** `4475`
 
-Solving with weighted A*(weighted_heuristic2, alpha = 2):
-Solution: [(1, 1), (2, 1), (0, 0)]
-Nodes visited: 75
+### Solving with Weighted A* (weighted_heuristic2, alpha = 2):
+- **Solution:** `[(1, 1), (2, 1), (0, 0)]`
+- **Nodes visited:** `75`
 
-Solving with weighted A*(weighted_heuristic2, alpha = 5):
-Solution: [(1, 1), (2, 1), (0, 0)]
-Nodes visited: 75
+### Solving with Weighted A* (weighted_heuristic2, alpha = 5):
+- **Solution:** `[(1, 1), (2, 1), (0, 0)]`
+- **Nodes visited:** `75`
 
 ## Usage
 
